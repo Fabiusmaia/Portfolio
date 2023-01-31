@@ -1,0 +1,43 @@
+.headerdiv{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+
+
+}
+.headerdiv ul{
+    list-style: none;
+    z-index: 1;
+
+}
+.headerdiv param{
+    font-weight: 300;
+}
+
+.headerdiv li{
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+.headerdiv a:hover{
+    cursor: pointer;
+    font-size: 1em;
+    transition: font-size 0.2s;
+    color: #0096FF;
+}
+li:not(:hover){
+    font-size: .7em;
+    transition: font-size 0.2s;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+  
