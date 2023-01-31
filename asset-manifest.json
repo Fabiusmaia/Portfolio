@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4c8b75c5.css",
+    "main.js": "/portfolio/static/js/main.cd42b105.js",
+    "static/media/recipes.png": "/portfolio/static/media/recipes.5cc32775988cb265e84c.png",
+    "static/media/shake.gif": "/portfolio/static/media/shake.52a925213ecbc4d06f30.gif",
+    "static/media/pic.png": "/portfolio/static/media/pic.80079ea590b1e906b3e3.png",
+    "static/media/react.png": "/portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/css-3-logo-1.png": "/portfolio/static/media/css-3-logo-1.38381767fc305a32234c.png",
+    "static/media/html5.png": "/portfolio/static/media/html5.c4d9c8dcdf4078875355.png",
+    "static/media/javascript-logo-1.png": "/portfolio/static/media/javascript-logo-1.fd668b084a25f663bf42.png",
+    "static/media/bandclone.png": "/portfolio/static/media/bandclone.efb40c1832daa58b359e.png",
+    "static/media/costs.png": "/portfolio/static/media/costs.816247bc34a37117360f.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.654b83fe73bc0db62863.png",
+    "static/media/nodejs_logo.png": "/portfolio/static/media/nodejs_logo.7b7c4003e702ffb3aeeb.png",
+    "static/media/workout.png": "/portfolio/static/media/workout.f02994116315ffcfcf75.png",
+    "static/media/github.png": "/portfolio/static/media/github.534a9c9e5a36a053d90d.png",
+    "index.html": "/portfolio/index.html",
+    "main.4c8b75c5.css.map": "/portfolio/static/css/main.4c8b75c5.css.map",
+    "main.cd42b105.js.map": "/portfolio/static/js/main.cd42b105.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c8b75c5.css",
+    "static/js/main.cd42b105.js"
+  ]
+}
