@@ -5,7 +5,10 @@ body{
   padding: 0;
   overflow-x:hidden;
 
+
 }
+
+
 .full-wh {
   position: absolute;
   top: 0px;
@@ -329,6 +332,9 @@ padding-bottom: 5px;
 }
 .node{
   margin-top: 40px;
+}
+.flex{
+  margin: 0 auto;
 }
 }
 

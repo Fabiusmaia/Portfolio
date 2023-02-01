@@ -82,7 +82,7 @@ const particlesLoaded = useCallback(async container => {
             interactivity: {
                 events: {
                     onClick: {
-                        enable: true,
+                        enable: false,
                         mode: "push",
                     },
                     onHover: {
@@ -158,7 +158,7 @@ const particlesLoaded = useCallback(async container => {
 
     </div>
 
-<div id="about" data-aos="fade-left">
+<div id="about" data-aos="fade-left" >
 
   <div className="about-flex">
     <img className="pic" src={pic} />
