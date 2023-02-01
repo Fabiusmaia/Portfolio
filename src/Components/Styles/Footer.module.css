@@ -1,0 +1,31 @@
+.footer{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    bottom:0;
+    left:0;
+    text-align: center;
+    align-items: center;
+}
+
+.linkedin img{
+    height: 70%;
+}
+.linkedin{
+    height: 70%;
+    margin-top: 10px;
+}
+.github img{
+    height: 90%;
+}
+.github{
+    height: 90%;
+}
+.github:hover{
+    height: 100%;
+}
+.linkedin:hover{
+    height: 100%;
+}

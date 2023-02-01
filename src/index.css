@@ -1,0 +1,334 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x:hidden;
+
+}
+.full-wh {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.bg-animation {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-animation {
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+.landing{
+  color: #fff;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  font-size: 2em;
+  text-align: center;
+
+}
+.highlight{
+  color: #0096FF
+}
+.landing h1{
+  font-weight: 300;
+}
+.about-flex{
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  text-align: center;
+}
+ .pic{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.tech-grid img{
+  width: 100px;
+  height: auto;
+}
+.html5 img{
+  width: 140px;
+  height: 140px;
+}
+.javascript img {
+  margin-top: 40px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 24px;
+  margin-top: 150px;
+  flex-direction: column;
+}
+.button{
+  height: 4em;
+  width: 250px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  font-size: .8em;
+  z-index: 1;
+
+}
+#about{
+  height: 100vh;
+  width: 100vw;
+  margin-top: 100px;
+  
+}
+.projects-grid{
+  display: grid;
+  width: 60vw;
+  height: 80vh;
+  grid-gap: 10px;
+  grid-template-areas: "B B A"
+   "B B C"
+    "B B D";
+  margin: 0 auto;
+
+}
+#projects{
+  padding: 50px;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+#tsparticles{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+input{
+  width: 50%;
+  margin: 10px 0;
+  height: 25px;
+  border-radius: 50px;
+  padding: 15px;
+  font-size: 1.2em;
+  border: 1px solid;
+}
+input[type=submit]{
+  height: 60px;
+  font-size: 1.2em;
+  color: white;
+  border: none;
+  background: #0096FF;
+  cursor: pointer;
+
+}
+.item1{
+  grid-area: A;
+  background-image: url(./Components/Styles/workout.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end ;
+  text-align: center;
+  overflow: hidden;
+
+
+
+}
+.image{
+  width: 40%;
+}
+.repository{
+height: 5vh;
+}
+
+.item2{
+  grid-area: B;
+  background-image: url(./Components/Styles/bandclone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.item3{
+  grid-area: C;
+  background-image: url(./Components/Styles/recipes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.item4{
+  grid-area: D;
+  background-image: url(./Components/Styles/costs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.description{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: white;
+  word-wrap: break-word;
+  overflow: auto;
+  white-space: normal;
+}
+.description:hover{
+  opacity: 1;
+  transition: opacity 0.2s;
+}
+
+.tech-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-gap: 100px;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+textarea{
+  height: 40%;
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.shake{
+  width: 50vw;
+  height: auto;
+}
+.form{
+width: 50%;
+height: 80vh;
+margin: 50px auto;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.contact-flex{
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+
+.project-button{
+background-color: black;
+border: 1px solid white;
+width: 80%;
+cursor: pointer;
+}
+.git{
+  max-width: 15%;
+  height: auto;
+  cursor: pointer;
+}
+.git:hover{
+  max-width: 18%;
+  height: auto;
+}
+.project-button:hover{
+  background-color:#0096FF;
+}
+
+.tech{
+  width: 10vw;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  
+}
+#contact{
+  text-align: center;
+  padding: 50px;
+  height: 100%;
+
+}
+.about-text{
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#about p{
+  text-align: center;
+  font-size: 1.2em;
+}
+.button:hover{
+  color: black;
+  background-color: #0096FF;
+  transition: background-color 0.2s;
+  border-color: transparent;
+  cursor: pointer;
+
+}
+
+@media only screen and (max-width: 920px){
+  .projects-grid{
+    display: block;
+    overflow: auto;
+  }
+
+.project{
+  width: 100%;
+  margin-top: 20px;
+}
+#projects{
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.contact-flex{
+  display: block;
+}
+.image{
+  width: 100%;
+}
+.form{
+  margin: 0px;
+  width: 100%;
+  display: block;
+}
+.shake{
+  width: 100%;
+
+}
+.description{
+padding-bottom: 5px;
+}
+.tech-grid{
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+
+}
+.node{
+  margin-top: 40px;
+}
+}
+
