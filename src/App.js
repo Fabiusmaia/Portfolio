@@ -158,7 +158,7 @@ const particlesLoaded = useCallback(async container => {
 
     </div>
 
-<div id="about" data-aos="fade-left" >
+<div id="about" data-aos="zoom-in" >
 
   <div className="about-flex">
     <img className="pic" src={pic} />
@@ -170,7 +170,7 @@ Pretendo me tornar um desenvolvedor Full-Stack, atuando no back-end com NodeJS e
 
 Me considero uma pessoa de rápido aprendizado em novas tecnologias e me adapto fácil à mudanças, e estou sempre pronto pra superar qualquer desafio!</span>  <h1><span className="about-text">Tecnologias</span></h1>
 
-  <div className="tech-grid" data-aos="fade-left">
+  <div className="tech-grid" data-aos="zoom-in">
     <div className="tech html5"><img src={html5} ></img></div>
     <div className="tech css"> <img src={css} ></img></div>
     <div className="tech javascript"><img src={js} ></img></div>
@@ -182,12 +182,12 @@ Me considero uma pessoa de rápido aprendizado em novas tecnologias e me adapto 
   </div>
 
 
-  <div id="projects">
+  <div id="projects" data-aos="zoom-in">
   <h1><span className="about-text">Meus projetos</span></h1>
 
     
 <div className="projects-grid">
-  <div className="project item1"  data-aos="fade-left">
+  <div className="project item1">
     <div className="description">
       <h1>Workout Buddy
       </h1>
@@ -196,7 +196,7 @@ Me considero uma pessoa de rápido aprendizado em novas tecnologias e me adapto 
 <a href="https://github.com/Fabiusmaia/workout-buddy" target="_blank"><img className="git" src={git}></img></a>
     </div>
     </div>
-  <div className="project item2" data-aos="fade-right">
+  <div className="project item2">
   <div className="description">
       <h1>BandClone
       </h1>
@@ -204,7 +204,7 @@ Me considero uma pessoa de rápido aprendizado em novas tecnologias e me adapto 
 </p>
 <a href="https://github.com/Fabiusmaia/BandClone" target="_blank"><img className="git" src={git}></img></a>    </div>
     </div>
-  <div className="project item3" data-aos="fade-left">
+  <div className="project item3">
   <div className="description">
       <h1>Recipes
       </h1>
@@ -215,7 +215,7 @@ Me considero uma pessoa de rápido aprendizado em novas tecnologias e me adapto 
 
     </div>
     </div>
-  <div className="project item4" data-aos="fade-left">
+  <div className="project item4">
   <div className="description">
       <h1>Costs
       </h1>
@@ -228,7 +228,7 @@ Me considero uma pessoa de rápido aprendizado em novas tecnologias e me adapto 
   </div>
   
 </div>
-<div id="contact" data-aos="fade-right">
+<div id="contact" data-aos="zoom-in">
   <h1><span className="about-text">Entre em contato comigo</span></h1>
 <div className="contact-flex">
 <div className="image">

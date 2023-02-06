@@ -292,7 +292,7 @@ cursor: pointer;
 
 }
 
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 720px){
   .projects-grid{
     display: block;
     overflow: auto;
@@ -328,7 +328,9 @@ padding-bottom: 5px;
 .tech-grid{
   grid-template-columns: 1fr 1fr;
   width: 100%;
-
+  margin-left: 12%;
+  text-align: center;
+  grid-gap: 10vw;
 }
 .node{
   margin-top: 40px;
@@ -336,5 +338,13 @@ padding-bottom: 5px;
 .flex{
   margin: 0 auto;
 }
+.tech-grid img{
+  width: 15vw;
+  height: auto;
+}
+.html5 img{
+  width: 20vw;
+}
+
 }
 
